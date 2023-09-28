@@ -1,0 +1,38 @@
+﻿Ans–1  A computer is an electronically programmable device. Which does all the arithmetic 
+               and logical tasks. 
+
+
+Ans–2  We have two memory units within us computer 
+        (1)RAM
+        (2)HDD{SDD}
+RAM is a volatile memory unit which stores data for some times  whenever a device is powered on.
+RAM :- Random Access Memory
+ 
+Advantages of RAM                   Dis-Advantages of RAM
+Not Bulky As HDD                        Volatile
+Not so much Noisy                        Little Expensive        
+More Faster than HDD                 Less Memory-storage
+
+
+Ans–3  In a memory unit called HDD:- Hard Disk Drive, The Data is stored.
+
+
+Ans–4  There is a Device called KEYBOARD which is used to type words and numbers 
+              on  a document in a computer system.
+
+
+Ans–5 The output devices are devices which can get instruction from input
+           devices and give the Related output of that input instructions.
+           Examples of output devices :- Monitor, Speaker, Printer etc..
+
+
+Ans–6 There is an input device called Mouse that allows a user to move a 
+            cursor or pointer on the screen. 
+
+
+Ans–7 Binary Language is directly understood by the computer without a 
+            translation program.
+
+
+Ans–8 The  input device is that device which gives  an instruction to the PC 
+   to perform or give output.
