@@ -1,0 +1,26 @@
+﻿Ans–1 A programme is a set of  instructions which is given to the computer from input devices 
+to perform certain tasks.
+
+
+Ans–2 We need a programming language because our machine can understand only Binary
+ language(two digits 0s & 1s). For humans it can be a very difficult task to understand and give instructions via Machine Level Language. Hence we need programming languages which can be simply understood by humans and we can give our instruction to pc via this High level Languages.
+
+
+Ans–3 Java Programming Language’s Features 
+(1) Object  Orientation
+(2) Platform Indepancy
+(3) Freely available
+
+
+Ans–4 The world is a collection of objects. Every object is use-full object, no one object is
+ us-less object. Every object has an intereaction with another object, no one object is
+ isolated.Every object has two part -(1) Has Part (2) Does Part
+
+
+Ans–5 Every object belongs to a type. The type is technically called Class.There is no real class 
+In the world, only Objects exist in the  world.
+
+
+Ans–6 The main method is an entry point or starting point of execution of any programme. Any 
+programming language  must have the main method so the os can execute  the
+programme.In JAVA the main method structure is “public static void main(String[] args)” in this following main method must be public so the compiler can see the entire code. Static shows flexibility to the compiler so the compiler can compile the code without making any object of the main method. The main method must be void. It shows that the main method does not give any values.In  parentheses there is an argument String[] args which is used to collect command line arguments.
