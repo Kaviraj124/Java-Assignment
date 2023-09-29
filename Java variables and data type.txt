@@ -1,0 +1,40 @@
+﻿Ans–1 Statically typed programming language
+        In which programming language we must have to declare which type of data we stored
+ in the variables. It's called the Statically typed programming language.
+Ex: C, C++, JAVA….
+Dynamically  typed programming language
+In which programming language we don’t have to declare which type of data in the 
+variable we stored in. Those programming language called as Dynamically typed
+ programming language
+Ex: Javascript, Python….
+
+
+Ans–2 Variable:-  Variable is a name of memory allocated reserved area. While we compiled the          code the  variable was  stored in a container that's we called as memory allocated 
+             variable. 
+
+
+Ans–3 By using (=) sign we can assign a value to a whatever Variable. Ex:- int a = 50;
+
+
+Ans–4 Primitive Data type of JAVA :- int, float, boolean, short, long, double, char.
+
+
+Ans–5  identifiers in JAVA:- Class name, Variable name, constant name, main method.
+
+
+Ans–6 List of operators in java:- Arithmetic operators, Relational, Logical, Assignment, Unary,   
+Bitwise.
+
+
+Ans–7 Increment Operator :- Which operator increases the value it’s called as increment  
+operator.  
+Decrement Operator :- which operator decreases the value in java it’s generally called 
+as decrement Operator. 
+Example :- a=25; a++;
+→ In this example a++ will increase the value of a variable a by one. Simply it means   
+      a=(25+1)26;
+         → a=25; a–;
+     In this example a++ will increase the value of a variable a by one. Simply it means
+                 a=(25-1)24;
+     There are two type in all in increment and decrement operators those are post  
+      increment and pre increment Or post decrement and pre decrement.
