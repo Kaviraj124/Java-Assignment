@@ -1,0 +1,58 @@
+﻿Ans-01 :- Operators which compare some values and give result in boolean type means in true and false or perform certain tasks, it’s simply called as conditional operators in JAVA.
+
+
+There are 2 operators in java (1) if/else, (2)ternary.
+
+
+Ans-02 :- There are three types of operators in java which are based on number of operands.
+(1) Unary
+(2)Binary
+(3)Ternary
+
+
+Ans-03 :- Switch case - We use switch case whenever we have to select one code block and stop the operation when we get the true value of our condition.
+
+
+Ans-04 :- Priority levels in arithmetic operators in java.
+(1)*,/,%
+(2)+,-
+
+
+Ans-05 :- if and else are the conditional statements in JAVA.
+The usage of conditional statements in java:- if the developer or user wants to do certain tasks which have conditions of true and false then the usage of conditional statements.
+If the condition is true then a certain task will run which is into an if block. If the condition is false then that task will apply whichever in else or in else if block.
+
+
+Ans-06 :- Syntax of if else statement.
+if(condition){
+//Block of code || task which apply when condition is true
+}
+Else{
+//Block of code || task which apply when condition is false
+}
+
+
+Ans-07 :- Types of iterative statements.
+(1)for
+(2)while
+(3)do-while
+
+
+Ans-08 :- Difference between For and  While Loop
+
+
+                         For loop                                        Do-while loop
+→ Execute when condition is checked.                → Execute once if statement is true or false.
+→ It may execute zero times.                                → It will be executed at least once.
+→ for single statement brackets are not                → Brackets are compulsory.
+     compulsory.
+Ans-09 :- public class PrintNumbers
+{
+Public static void main(String[] args)
+      {
+for(int  i=0;i<10;i++)
+{
+      System.out.println(i);
+}
+      }
+}
