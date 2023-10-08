@@ -1,0 +1,18 @@
+﻿Ans 01 :- To create an object in Java, use `new ClassName();
+
+
+Ans 02 :- "New" in Java creates objects.
+
+
+Ans 03 :- Java variables: Local, Instance, Static.
+
+
+Ans 04 :-  Local variables  declared within a specific method, meaning they are only accessible within that method. 
+→ Instance variables declared within a class but outside of methods. making them accessible throughout the class and having their own unique values for each object.
+
+
+Ans 05 :- Instance variables are allocated memory within objects. 
+→ Local variables are allocated memory on the stack. 
+
+
+Ans 06 :- Method overloading in Java allows you to define multiple methods in the same class with the same name but different parameters.
