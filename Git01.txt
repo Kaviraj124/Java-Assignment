@@ -1,0 +1,33 @@
+﻿Ans-01 :-  Certainly! In simple terms, Git is like a digital tool that helps software developers work together on a computer program. It keeps track of all the changes they make to the code and allows them to collaborate seamlessly. It's like a super-smart filing system for code, making it easier to work on projects with others and keep everything organized.
+
+
+Ans-02 :-A Version Control System (VCS) is like a digital time machine for computer files. It helps people who work on the same project keep track of changes to those files. Think of it as a way to save different "snapshots" of your project as you work on it. This allows you to see what was changed, who made those changes, and when they were made.
+
+
+Ans-03 :-  GitHub is a website where people put their computer code and work together on projects.
+
+
+Ans-04 :- (1) GitHub
+(2) SourceFor
+(3) GitLab
+
+
+Ans-05 :- There are three main types of version control systems:
+
+
+1. Local Version Control: This is like a personal diary for your files. It keeps track of changes on your own computer.
+
+
+2. Centralized Version Control: Think of this as a shared library. Everyone accesses and updates the same central repository.
+
+
+3. Distributed Version Control: It's like making copies of your work. Everyone has their own copy of the entire project, and changes can be shared between copies. Git is a popular example of this type.
+
+
+Ans-06 :- Git offers benefits like easy collaboration, a detailed version history, secure backups, the ability to work on experimental features without affecting the main project (branching)
+
+
+Ans-07 :-  A Git repository is like a folder where Git keeps all the files and their change history for a project.
+
+
+Ans-08 :- For initialization git repository we have to give “git init” command in git command prompt.
