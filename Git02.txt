@@ -1,0 +1,24 @@
+﻿Ans-01 :- git --version.
+
+
+Ans-02 :- git init. 
+
+
+Ans-03 :- git config --global user.name "<your name>"
+git config --global user.email "<your email>"
+
+
+Ans-04 :- git add <file>
+
+
+Ans-05 :- git reset  <file>
+
+
+Ans-06 :- git commit -m " message".
+
+
+Ans-07 :- git push 
+
+
+Ans-08 :- "Clone" is used to create a copy of a Git repository on your local machine, including all its history and branches. 
+→ "pull" is used to update your local repository with changes from a remote repository.
