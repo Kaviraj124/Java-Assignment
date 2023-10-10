@@ -1,0 +1,33 @@
+﻿Ans-01 :-         For integer data = 0
+                      For boolean data = False
+For any object data =  null(0)
+
+
+Ans-02 :-  No, we can not pass negative value into the array size.
+
+
+Ans-03 :- Array will be stored in heap memory into a JVM.
+
+
+Ans-04 :- Array has static storage if we have to increase the size of an Array, we cannot.
+
+
+Ans-05 :- Which array do not have a name those called is  anonym array. This will work only 
+        one time.
+       Example ;- new int[] = {1,2};
+
+
+Ans-06 :-  Use of loop or enheritance loop.
+
+
+Ans-07 :- length :- Length is an object and it is use to get number of elements(integer) which    is in the array.
+       Example :- int Size[];
+                Size[] = {1,2,3,4}
+System.out.println(Size.length); // 4
+
+
+length() :- length() is a method and it is use to get a number of elements which is in the string.
+
+
+        Example :- String str = “Hii Welcome to PW”;
+                        System.out.println(str.length()); //26
