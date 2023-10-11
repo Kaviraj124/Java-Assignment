@@ -1,6 +1,4 @@
-﻿Ans - 01  
-
-
+﻿Ans - 01
 public class CallingObject {
     public void Print(){
     System.out.println("Welcome To The PW Skills");
@@ -37,12 +35,10 @@ public static void main(String[] args){
     System.out.println("Sum of three integers: " + sum2);
     double sum3 = obj.add(4.5,4.6);
     System.out.println("Sum of two double " + sum3);
-
-
-
-
 }
 }
+
+
 Ans - 03 
 public class PrintArray {
     public void Printarray (){
@@ -54,47 +50,28 @@ public class PrintArray {
     public static void main(String[] args){
        PrintArray obj = new PrintArray();
        obj.Printarray();
-
-
-
-
     }
 }
-
-
 
 
 Ans - 04
 public class SumOfArray {
     public int sum(){
-
-
-         int  n = 0;
+        int  n = 0;
         int number[] = {10,20,30,40};
         for(int i=0;i<=3;i++){
-            n = n+number[i];
-           
+            n = n+number[i];           
         }
         System.out.println(n) ;
         return n;
-
-
     }
     public static void main(String[] args){
      SumOfArray obj = new SumOfArray();
      obj.sum();
     }
-
-
  }
 
-
-   
-
-
 Ans - 05
-
-
 public class FindLengthOfArray {
     public void length(){
          int a[] = new int[5];
