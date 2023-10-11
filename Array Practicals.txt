@@ -1,0 +1,113 @@
+﻿Ans - 01  
+
+
+public class CallingObject {
+    public void Print(){
+    System.out.println("Welcome To The PW Skills");
+    }
+   
+    public static void main(String[] args){
+        CallingObject obj = new CallingObject();
+        obj.Print();
+    }
+}
+
+
+
+
+Ans - 02
+public class MethodOverloading {
+    public int add (int a, int b){
+            int Result = a +  b ;
+            return Result;
+    }
+    public int add (int a, int b, int c){
+            int Result = a +  b ;
+            return Result;
+    }
+    public double add (double a, double b){
+            double Result = a +  b ;
+            return Result;
+    }
+public static void main(String[] args){
+    MethodOverloading obj = new MethodOverloading();
+    int sum1 = obj.add(4,5);
+    System.out.println("Sum of two integers: " + sum1);
+    int sum2 = obj.add(11,12,13);
+    System.out.println("Sum of three integers: " + sum2);
+    double sum3 = obj.add(4.5,4.6);
+    System.out.println("Sum of two double " + sum3);
+
+
+
+
+}
+}
+Ans - 03 
+public class PrintArray {
+    public void Printarray (){
+         int print[]={15,25,12,12};
+        for(int number : print){
+            System.out.println(number);
+        }
+    }
+    public static void main(String[] args){
+       PrintArray obj = new PrintArray();
+       obj.Printarray();
+
+
+
+
+    }
+}
+
+
+
+
+Ans - 04
+public class SumOfArray {
+    public int sum(){
+
+
+         int  n = 0;
+        int number[] = {10,20,30,40};
+        for(int i=0;i<=3;i++){
+            n = n+number[i];
+           
+        }
+        System.out.println(n) ;
+        return n;
+
+
+    }
+    public static void main(String[] args){
+     SumOfArray obj = new SumOfArray();
+     obj.sum();
+    }
+
+
+ }
+
+
+   
+
+
+Ans - 05
+
+
+public class FindLengthOfArray {
+    public void length(){
+         int a[] = new int[5];
+        a[0] = 1;
+        a[1] = 2;
+        a[2] = 4;
+        a[3] = 9;
+        a[4] = 10;
+        System.out.println(a.length);
+    }
+    public static void main(String[] args){
+       FindLengthOfArray obj = new FindLengthOfArray();
+       obj.length();
+    }
+   
+}
