@@ -2,5 +2,5 @@ Ans 01 :- Strings are series of Charecters in java which are enclosed with doubl
 Ans 02 :- There are two types of strings in java -- (1)Immutable Strings (2)Mutable Strings.
 Ans 03 :- In two ways we can simply creat objects in java (1)By Using New keyword (2) By simply call String Class from java package(It will creat object in String Constance Pool(SCP)).
 Ans 04 :- String Constant Pool is pre defind location for allocating String values which are created without using new keywords. Although it takes one copy of string which creats by using new keyword.
-Ans 05 :- (1)Immutable - Cannot be change or edited after created once. (2)Mutable - Can be changed or edited atre created once.
+Ans 05 :- (1)Immutable - Cannot be change or edited after created once. (2)Mutable - Can be changed or edited atre created once. 
 Ans 06 :- String constant pool is located into a exect Heap Area in Memory.
