@@ -1,7 +1,70 @@
-
+01 ==> Reverse String without usin inbuilt methods.
     public static void main(String[] args){
     String str = "HelloPW";
     for(int i= str.length()-1;i>=0;i--){
         System.out.print(str.charAt(i));
     }
   }
+
+02 ==> Checkin if number is palidrome or not.
+    
+    public static void main(String[] args){
+   Scanner scan = new Scanner(System.in);
+   System.out.print("Enter Your String : ");
+   String str = scan.nextLine(),reverce="";
+
+   int length = str.length();
+   for(int i = length-1;i>=0;i--)    
+      reverce = reverce + str.charAt(i);
+            if(str.equals(reverce)){
+                System.out.println("String is palidrome");
+            }
+            else{
+                System.out.println("String is not palidrome");
+            }    
+        }
+    }
+
+03 ==> Upper case to Lower case or Lower case to Upper case
+  public static void main(String[] args){
+
+   String cases = new String("upper");
+    String cases2 = new String("");
+  for(int i=0;i<cases.length();i++){
+    if((cases.charAt(i)>='A' && cases.charAt(i)<='Z' )){
+        cases2 = cases2 + (char)(cases.charAt(i)+32);
+            }
+      if((cases.charAt(i)>='a' && cases.charAt(i)<='z' )){
+        cases2 = cases2 + (char)(cases.charAt(i)-32);
+        }   
+      }
+  System.out.println(cases2);
+    }
+
+04 ==> Remove Particular character from String..
+ public static void main(String[] args){
+
+        String str = "Hii This is Umesh";
+        System.out.println(removeCh(str,10));
+	}
+
+static String removeCh(String s, int a){
+    return s.substring(0,a) + s.substring(a+1);
+}
+
+05 ==>  Found Index of Substring
+ public static void main(String[] args){
+        String str = "Hii Pw Skills";
+        int Index = str.indexOf("Pw");
+        if(Index < 0){
+            System.out.println("Not Found");
+        }
+        else{
+            System.out.println("Found At : "+ Index);
+        }
+
+
+       
+    }    
+
+
