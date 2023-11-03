@@ -1,0 +1,64 @@
+Ans 01 :- String From User..
+  public static void main(String[] args){
+     Scanner scan = new Scanner(System.in);
+     System.out.print("Enter Your String : ");
+     String str = scan.nextLine();
+     System.out.println(str);
+     scan.close();
+    } 
+
+Ans 02 :- Concating Strings in java
+    String str1 = "Hello";
+    String str2 = "PW";
+    String str3 = "Hello" + "PW";
+    System.out.println(str3);
+
+Ans 03 :- Length of String.
+    String str1 = "Hello";
+    String str2 = "PW";
+    int str3 = str1.length();
+    System.out.println(str3);
+
+Ans 04 :- Comparision of two strings..
+public static void main(String[] args){
+    String str = "HII";
+    String str1 = "HII";
+    System.out.println(str.equals(str1)); 
+    }    
+
+Ans 05 :- Length of Refrigerator..
+ public static void main(String[] args){
+     String str = "refrigerator";
+     System.out.println(str.length());
+    }    
+
+Ans 06 :- found 'e' in Umbrella..
+     String str = "Umbrella";
+     boolean str1 = false;
+     for(int i=0;i<=str.length()-1;i++){
+        if(str.charAt(i)=='e'){
+           str1 = true;
+           break;
+        }      
+     }
+     System.out.println(str1);   
+    } 
+
+Ans 07 :- Removing All consonants..
+            Scanner scan = new Scanner(System.in);
+                System.out.print("Enter Your String : ");
+                String input = scan.nextLine();
+                String result = removeConsonants(input);
+                System.out.println(result);
+            }
+        
+            public static String removeConsonants(String input) {
+                return input.replaceAll("[^AEIOUaeiou]", "");
+            }
+
+
+
+
+
+
+
