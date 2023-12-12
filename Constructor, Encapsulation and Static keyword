@@ -1,0 +1,241 @@
+                                                                                CONSTRUCTOR THEORY
+Ans - 01 :- Consstructor is initialized method which invokes during object creation. Constructor is a specialized setter. It's also contains a collection of statement.
+And - 02 :- Constructor chaining is a method to call another constructorby using this() and super() methods.
+And - 03 :- No, We can't call subclass constructur by superclass constructor.
+And - 04 :- Firstly, we can't give constructer a return value because constructor must nor have any return type. If we give a return type the constructor will be treated as normal  method. In the case of return value
+            to the constructor the compiler will give a warning. // Method name is as same as class.
+And - 05 :- If constructer is made without giving any arguments it's simply called as no args constructor.
+And - 06 :- Diffrence between No-argument constructer and default constructor :-- No argument constructor means without any parameters constructor. Default constructor created if you dont declare any constructor in your programme.
+And - 07 :- When we have many type of constructro and they have diffrent parameteres then we have to do constructor overloading.
+And - 08 :- If we don't create any constructor explicitly then the compiler will generate a default constructor by it's own.
+
+                      Example :- In front of us it will show like                                              After compilation it will show like
+
+                       class Pw{                                                                       class Pw{
+                      // doesn't have any explicitly defined constructor                               // doesn't have any explicitly defined constructor but compiler will generate default compiler like...
+                                                                                                        Pw(){
+                                                                                                        super(); //it will call super class constructor
+                                                                                                        }
+                                                                                                             
+                       }                                                                                }
+                      class Launch{                                                                     class Launch{
+                      public static void main(String[] args){                                           public static void main(String[] args){
+                              Pw p = new Pw();                                                          Pw p = new Pw();
+                      }                                                                                 }
+                      }                                                                                 }
+                                                   
+
+                                                                         ENCAPSULATION THEORY
+
+Ans 01 :- Encapsulation is one of the pillar of Object Oriented Programming(OOP).Encapsulation refurs to provide security to the most important componants of an object.
+          Encapsulation prevents direct control of the most important componants of an object by declaring them as private. and give controlled access by setters and getters.
+          That's why encapsulation is also called as DATA HIDING.
+Ans 02 :- The most important features of the Encapsulation is it prevents to give direct access to the use by providing control. 
+Ans 03 :- Getters and setters gives controled access to the user.  For initialize of getting (storing and using) data setters and getters are used.
+          Example :- 
+        class Encapsulation{        
+                private int a;
+                void setData(int x){ //Declaring setter
+                public int a = int x;
+                }
+                public int getData(){ //Declaring getter
+                return x;
+                }
+        }
+
+        class Launch{
+        public static void main(String[] args){
+        Encapsulaton e = new Encapsulation;
+        b.setData(100);                 // initializing value
+        int page = e.getData();        // getting values
+        }
+        }
+Ans 04 :- International coding prefrence suggest to give setter parameter's name as same as instance variable but there is a problem that compiler will take this as local variable insteade of taking as instance variable.
+          The problem is known as Shadowing problem. To solve the problem we have this keywords.
+        Example :- 
+         class Plane {
+    private String name;
+    private int weight;
+
+    public void setPlane(String name, int weight) {
+        this.name = name;
+        this.weight = weight;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+}
+
+class Launch {
+    public static void main(String[] args) {
+        Plane p = new Plane();
+        p.setPlane("Indigo", 144);
+        String name = p.getName();
+        int weight = p.getWeight();
+
+        // Print the values for verification
+        System.out.println("Name: " + name);
+        System.out.println("Weight: " + weight);
+    }
+}
+
+Ans 05 :- (1) Encapsulation gives protection to the most important componants.(2) It improves Modularity. (3)It's easy to maintain.
+Ans 06 :- We can achieve encapsulation by using private access modifier.
+                Example -->
+                class Room {
+                private String type;
+                private float area;
+                public void setRoom(String type, float area){
+                        this.type = type;
+                        this.area = area;
+                }
+                }
+
+
+                                                                        PRACTICALS
+
+Ans 01 :-  public class Assignment{
+    private static int instance = 0;
+    public Assignment(){
+        instance++;
+    }
+    public static int getInstance(){
+        return instance;
+    }
+    public static void main(String[] args){
+        Assignment a1 = new Assignment();
+        Assignment a2 = new Assignment();
+        Assignment a3 = new Assignment();
+        System.out.println("The number of instance : " + Assignment.getInstance());
+    }
+
+ }
+
+Ans 02 :-  public class Assignment{
+    private int no_Of_pages;
+    private String title;
+    public Assignment(int no_Of_pages, String title){
+        this.no_Of_pages  = no_Of_pages;
+        this.title = title;
+    }
+    public int getNo_of_Pages(){
+        return no_Of_pages;
+    }
+    public String title(){
+        return title;
+    } 
+    public static void main(String[] args){
+        Assignment a = new Assignment(20, "JAVA");
+        System.out.println(a.getNo_of_Pages()+a.title());
+    }
+
+ }
+
+Ans 03 :-  public class Assignment{
+   private String name;
+   private int age;
+   private float height;
+   public void setAssignment(String name, int age, float height){
+    this.name=name;
+    this.age=age;
+    this.height=height;
+   }
+   public String getName(){
+    return name;
+   }
+   public int getAge(){
+    return age;
+   }
+   public float getHeight(){
+    return height;
+   }
+
+   public static void main(String[] args) {
+    Assignment a = new Assignment();
+    a.setAssignment("kavi", 21, 5.3f);
+    System.out.println(a.getName());
+    System.out.println(a.getAge());
+    System.out.println(a.getHeight());
+ }
+}
+
+Ans 04 :-  public class Assignment{
+  public static void car(){
+    String Name = "Swift";
+    int Model = 2023;
+    float insurance = 4.5f;
+    System.out.println(Name);
+    System.out.println(Model);
+    System.out.println(insurance);
+  }
+  public static void main(String[] args) {
+    Assignment.car();
+  }
+}
+
+Ans 05 :-  public class Assignment{
+  static {
+    System.out.println("Control is on static block");
+  }
+  int age;
+  public Assignment(int age){
+    this.age = age;
+    System.out.println("Control is on Constructor01 : " + age);
+  }
+  public Assignment(){
+    System.out.println("Control is on Constructor02");
+  }
+
+  public static void main(String[] args) {
+    Assignment a = new Assignment(20);
+    Assignment a2 = new Assignment();
+
+  }
+
+}
+
+                                                                THEORY OF STATIC KEYWORD
+
+Ans 01 :- We have need of static keyword because we can make static variable which is declare themselves as class variable. They are diffrent from instance variable. By using static method those methods can called
+          without crating any object.And lastly by static blocks may call whenever objects are created no matter how many time it's done.
+        Example:-  public class Assignment{
+        static int staticVariable = 0;
+    
+        static {
+            System.out.println("Static block - Executed when the class is loaded");
+        }
+    
+        static void staticMethod() {
+            System.out.println("Static method - Can be called without creating an instance");
+        }
+        public static void main(String[] args) {
+            StaticExample obj1 = new StaticExample();
+            StaticExample obj2 = new StaticExample();
+    
+            System.out.println("Static variable value: " + staticVariable);
+    
+            staticMethod();
+           }
+}
+
+Ans 02 :- Class loading is a process of java execution. class loading loads java programme on the JVM.
+        Java programme acutely execute first it compile and converted in bytecode. After that with help of class loading byte code get loded on the memory by JVM. In class loading proccess there are three more 
+        proccess (1)loading :- converting in byte code.
+                 (2)linking :- it checks the formate of langhuage is true or not and allocated the memory to the variables and classes.
+                 (3)Initializing :- The finle process. It gives value means initialize the value to the variable in the alloczzted classes.
+        Finaly programme going to execute.
+
+Ans 03 :- No we can not marek local variable as static.
+Ans 04 :- The static block execute before executing main method in java because static block is used for class level blocks. In class loading method jvm executes static block first. Static block initialized in class loading process.
+Ans 05 :- The static  method called as class method because in classs loading process jvm load class methods within the  class. and we can execute static method without creating any object of class itmay done with the help of  class name also..
+Ans 06 :- The static blocks allow you to execute by loading class. With the help of static block we  can execute them while class is loading and it's done before main class.        
+Ans 07 :- The static variable's Memory is allocated once when the class is loaded into memory0. On the other hand instance variable's memory is allocated for each instance of the class. 
+          Static variable can be use with the class name.
+Ans 08 :- Static members:- Methods, Blocks, Variables. Non-static variable :- Instance variable, methods,  Constructor.
+                              
+                     
