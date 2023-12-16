@@ -1,0 +1,66 @@
+Ans 01 :- Inheritance is one of the pillar of Object Oriented Programming. Inheritance inharits Superclass method to the child class. Child class can use Superclass's methods with the help of inheritance.  
+Ans 02 :- Super class is the class which can inherit by the sub class. Sub class is a class which can inherit Super class's methods. Superclass also called as Base class, Parent class. Sub class also called as Derrived class, Child class.
+Ans 03 :- Inheritance can achive in java with the help of "extends" keyword. Structure of inheritance =  class subname extends childclassname{}
+Ans 04 :- Polymorphism is the one of the pillar of Object Oriented Programming. Polymorphism means Many Form of object.
+Ans 05 :- Method overloading is the concept of programming which's simple meaning is Method's name is same but parameters are diffrent. Method overriding's simple meaning is Superclass's method but it will changing in different needs.
+Ans 06 :- Abstraction is one of the pillar of Object Oriented Programmin. Abstraction is used when incomplete method is there in the body. 
+          Example :- abstract class Fan {
+         abstract public void speed(); // abstract method which will implement in other clas
+         abstract public void companyName();
+        } //abstract class
+
+  class Usa extends Fan{
+         public void speed()
+         {
+         System.out.println("0 to 4");
+         }
+         
+         public void companyName()
+         {
+         System.out.println("USHA");
+         }
+   }
+  class Launcg{
+	  public static void main(String[]args) {
+		  Usa u  = new Usa();
+		  u.speed();
+		  u.companyName();
+	  }
+  }
+
+Ans 07 :- Abstract methods are such method which's dont have any body it will be implemented by another interited(subclass). Final methods are such method which can't be override by any subclass. 
+          Example :- abstract class Fan {
+         abstract public void speed(); // abstract method which will implement in other clas
+         abstract public void companyName();
+         
+         final public void no_of_wings() {
+        	 System.out.println("Fan have Three Wings");
+         }
+  } //abstract class
+
+  class Usa extends Fan{
+         public void speed()
+         {
+         System.out.println("0 to 4");
+         }
+         
+         public void companyName()
+         {
+         System.out.println("USHA");
+         }
+         public void no_of_wings() {
+        	 System.out.println("Can not override");// it will throw a compilation error.
+         }
+         
+   }
+  class Launcg{
+	  public static void main(String[]args) {
+		  Usa u  = new Usa();
+		  u.speed();
+		  u.companyName();
+	  }
+  }
+
+Ans 08 :- Final class in java is a such class which can not be inharited by any other class.
+Ans 09 :-  Abstraction is one of the pillar of Object Oriented Programmin. Abstraction is used when incomplete method is there in the body. On other hand encapsulation is also an piller of OOP. With the help of encapsulation direct access can be prevented and controlled access can be done with the help of setters and getters.
+Ans 10 :- If polymorphism exist at compile time it is simply called as static polymorphism / compiletime polymorphism.  If polymorphism exist at run time it is simply called as dynamic polymorphism / runtime polymorphism. 
