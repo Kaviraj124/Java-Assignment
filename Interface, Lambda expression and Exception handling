@@ -1,0 +1,60 @@
+                                                                                  INTERFACES IN JAVA
+Ans 01 :- Interfaces are fully absract methods in java.
+Ans 02 :- public abstract static and default access modifiers are allowed in an interface class method.
+          Example :- interface employee {
+	public void name();
+	public static void salary (){
+	System.out.println("15 LPA");
+	}
+	default void workSpace () {
+		System.out.println("Software Engineer");
+	}
+}
+class Details implements employee{
+	public void name() {
+		System.out.println("Ramesh");
+	}
+}
+class Launch {
+	public static void main(String[]args) {
+		employee e = new Details();
+		e.name();
+		employee.salary();
+		e.workSpace();
+	}
+}
+
+Ans 03 :- We use interface in java when we don't know entire implementatiion of methods. If we have to declare fully abstract method then we use interface.
+Ans 04 :- Interface :- we don't know entire implementation of all methods. we can not get use of constructure. Every methods in default are public and abstarct. 
+          Abstraction class :- we know partially implements class. we can use constructure.Every method present inside abstract class need not be public and abstract.
+
+                                                                  LAMBADA EXPRESSION IN JAVA
+Ans 01 :- In java8 Lambda expression is used for single Abstract Method(SAM). Which means if we have single abstract  method inside the interface then we can take it as Lambda expression.
+Ans 02 :- Yes, we can pass the lambda expression inside the method when we have only one abstract method.
+Ans 03 :- If interface contains only one abstract class then it's called as Functional interface. 
+Ans 04 :- If we have to create any method without giving it any name then we use Lambda expression in java.
+Ans 05 :- Yes, if have to pass any parameters then we have to declare it. 
+
+                                                                  EXCEPTION HANDLING IN JAVA
+Ans 01 :- 1. Checked Exceptions: IOException, SQLException, ClassNotFoundException.
+          2. Unchecked Exceptions (Runtime Exceptions): NullPointerException, ArrayIndexOutOfBoundsException, ArithmeticException, ClassCastException.
+          3. Error : OutOfMemoryError, StackOverflowError
+Ans 02 :- An exception is a problem that occurs during program execution, like an error.
+Ans 03 :- In Java, you can handle exceptions using try-catch blocks.
+          Example :- try {
+    // code that may cause an exception
+    int result = 10 / 0; // Example of ArithmeticException
+} catch (ArithmeticException e) {
+    // handle the exception
+    System.out.println("Cannot divide by zero.");
+}
+
+Ans 04 :- Exception handling in Java prevents crashes by managing unexpected errors during program execution.
+Ans 05 :- Error: Serious system-level problem, usually unrecoverable.
+          Exception: Manageable problem in the program, meant to be handled.
+Ans 06 :- 
+1. Checked Exceptions
+2. Unchecked Exceptions (Runtime Exceptions)
+3. Errors
+
+Ans 07 :- Yes, you can use a try block without a catch or finally block in Java. However, it's not a complete exception handling structure.
