@@ -1,0 +1,139 @@
+                                                                                Collection Framework and Maps
+Ans 01 :- In java collection is a set of classes and interfaces that provide a comprehensive and standardized way to manage and manipulate groups of objects.
+Ans 02 :- 1. **ArrayList:**
+   - Uses a dynamic array.
+   - Fast random access.
+   - Inefficient insertion/deletion.
+
+2. **LinkedList:**
+   - Uses a doubly-linked list.
+   - Efficient insertion/deletion (O(1)).
+   - Inefficient random access.
+
+Ans 03 :- 1. **Iterator:**
+   - Goes through a collection one step at a time.
+   - Works for any group of things.
+   - Can only move forward.
+   - Can remove items.
+
+          2. **ListIterator:**
+   - Like an iterator but fancier.
+   - Specifically for lists (ordered groups).
+   - Can move both forward and backward.
+   - Can add, remove, and replace items. 
+Ans 04 :-  1. **Iterator:**
+   - Introduced in Java 1.2.
+   - Supports removal (`remove()`).
+   - Forward-only traversal (`hasNext()`, `next()`).
+   - Part of the Java Collections Framework.
+
+     2. **Enumeration:**
+   - Introduced in Java 1.0.
+   - Read-only.
+   - Forward-only traversal (`hasMoreElements()`, `nextElement()`).
+   - Used with legacy classes like `Vector` and `Hashtable`.
+
+Ans 05 :-       1. **List:**
+   - Ordered collection of elements.
+   - Allows duplicate elements.
+   - Accessed by index.
+   - Implemented by classes like `ArrayList` and `LinkedList`.
+
+                2. **Set:**
+   - Unordered collection of unique elements.
+   - Does not allow duplicates.
+   - No indexing.
+   - Implemented by classes like `HashSet` and `TreeSet`.
+
+
+Ans 06 :- 1. **HashSet:**
+   - Uses a hash table.
+   - No guaranteed order.
+   - Fast for basic operations.
+   - Allows one null element.
+
+          2. **TreeSet:**
+   - Uses a binary search tree.
+   - Maintains elements in sorted order.
+   - Slower for basic operations, efficient for sorted set operations.
+   - Does not allow null elements. 
+
+Ans 07  :- **Array:**
+- Fixed size.
+- Supports primitive types and objects.
+- Direct index access.
+- Size is fixed.
+
+            **ArrayList:**
+- Dynamic size.
+- Supports only objects.
+- Accessed via methods.
+- Size can change dynamically.
+
+Ans 08 :- Map in Java:
+- Represents a collection of key-value pairs.
+- Keys are unique.
+- Common implementations: HashMap, TreeMap, LinkedHashMap.
+
+Ans 09 :- 
+          1. **HashMap:**
+   - Fast and efficient.
+   - No specific order.
+   - Common choice for general-purpose use.
+
+            2. **TreeMap:**
+   - Sorted order.
+   - Slower for basic operations.
+   - Useful when a sorted map is needed.
+
+            3. **LinkedHashMap:**
+   - Maintains insertion order.
+   - Efficient with predictable order.
+   - Good for scenarios needing order preservation.
+
+Ans 10 :- **HashMap:**
+- Uses a hash table.
+- No specific order of keys.
+- Fast (constant-time) for basic operations.
+- Common for general-purpose use.
+
+**TreeMap:**
+- Uses a Red-Black tree.
+- Maintains keys in sorted order.
+- Slower than HashMap.
+- Useful when a sorted order of keys is needed.
+
+
+Ans 11 :- To check if a key exists in a Java map: we use the 'containsKey(key)' method.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
