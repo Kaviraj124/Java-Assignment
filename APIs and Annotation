@@ -1,0 +1,68 @@
+1. import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+
+public class CurrentTimeExample {
+    public static void main(String[] args) {
+        // Get the current time
+        LocalTime currentTime = LocalTime.now();
+
+        // Format the time using a specific pattern (optional)
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
+        String formattedTime = currentTime.format(formatter);
+
+        // Display the current time
+        System.out.println("Current Time: " + formattedTime);
+    }
+}
+
+2.import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class ShortDateToStringExample {
+    public static void main(String[] args) {
+        // Get the current date
+        Date currentDate = new Date();
+
+        // Format the date using SimpleDateFormat
+        String formattedDate = new SimpleDateFormat("MM/dd/yy").format(currentDate);
+
+        // Display the formatted date
+        System.out.println("Formatted Date: " + formattedDate);
+    }
+}
+
+3.
+Collection:
+
+Represents a group of objects.
+Provides methods for storing, retrieving, and manipulating elements.
+Allows random access to elements.
+Stream:
+
+Represents a sequence of elements that supports functional-style operations.
+Focuses on processing elements in a functional programming paradigm.
+Supports operations like map, filter, and reduce for efficient data processing.
+
+4.public class Example {
+    enum Day {
+        SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+    }
+
+    public static void main(String[] args) {
+        // Using the enum
+        Day today = Day.FRIDAY;
+
+        // Printing the value
+        System.out.println("Today is: " + today);
+    }
+}
+
+5.
+
+1 `@Override`: Indicates method override.
+2 `@Deprecated`: Marks deprecated elements.
+3 `@SuppressWarnings`: Suppresses specific warnings.
+4 `@FunctionalInterface`: Identifies functional interfaces.
+5 `@SafeVarargs`: Suppresses unchecked warnings for varargs.
+6 `@SuppressWarnings`: Suppresses specific warnings.
+
