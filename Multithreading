@@ -1,0 +1,6 @@
+Ans 01 :- Multithreading means doing many things at the same time in a computer program. It helps programs run faster and do more than one task simultaneously.
+Ans 02 :- Multithreading makes programs faster and more efficient by doing multiple tasks at the same time.
+Ans 03 :- A thread in Java is a small unit of a program that can run concurrently with other threads, allowing multiple tasks to be performed simultaneously.
+Ans 04 :- (1) Extending Thread class (2) Implementing Runnable interface
+Ans 05 :- A thread is the smallest unit of a process, and multiple threads share the same resources within a process. A process is an independent program with its own resources, isolated from other processes.
+Ans 06 :- wait() :- is for waiting in multithreading. `sleep()` :-  is for pausing the thread.
